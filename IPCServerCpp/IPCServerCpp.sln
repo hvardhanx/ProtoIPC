@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IPCServerCpp", "IPCServerCpp\IPCServerCpp.vcxproj", "{2B4749B8-EAC3-460E-B852-CC05B23D76D1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IPCClientCpp", "..\IPCClientCpp\IPCClientCpp\IPCClientCpp.vcxproj", "{6B2849D3-302A-47D2-B1AA-0E66400BA317}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2B4749B8-EAC3-460E-B852-CC05B23D76D1} = {2B4749B8-EAC3-460E-B852-CC05B23D76D1}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B4749B8-EAC3-460E-B852-CC05B23D76D1}.Debug|x64.ActiveCfg = Debug|x64
+		{2B4749B8-EAC3-460E-B852-CC05B23D76D1}.Debug|x64.Build.0 = Debug|x64
+		{2B4749B8-EAC3-460E-B852-CC05B23D76D1}.Debug|x86.ActiveCfg = Debug|Win32
+		{2B4749B8-EAC3-460E-B852-CC05B23D76D1}.Debug|x86.Build.0 = Debug|Win32
+		{2B4749B8-EAC3-460E-B852-CC05B23D76D1}.Release|x64.ActiveCfg = Release|x64
+		{2B4749B8-EAC3-460E-B852-CC05B23D76D1}.Release|x64.Build.0 = Release|x64
+		{2B4749B8-EAC3-460E-B852-CC05B23D76D1}.Release|x86.ActiveCfg = Release|Win32
+		{2B4749B8-EAC3-460E-B852-CC05B23D76D1}.Release|x86.Build.0 = Release|Win32
+		{6B2849D3-302A-47D2-B1AA-0E66400BA317}.Debug|x64.ActiveCfg = Debug|x64
+		{6B2849D3-302A-47D2-B1AA-0E66400BA317}.Debug|x64.Build.0 = Debug|x64
+		{6B2849D3-302A-47D2-B1AA-0E66400BA317}.Debug|x86.ActiveCfg = Debug|Win32
+		{6B2849D3-302A-47D2-B1AA-0E66400BA317}.Debug|x86.Build.0 = Debug|Win32
+		{6B2849D3-302A-47D2-B1AA-0E66400BA317}.Release|x64.ActiveCfg = Release|x64
+		{6B2849D3-302A-47D2-B1AA-0E66400BA317}.Release|x64.Build.0 = Release|x64
+		{6B2849D3-302A-47D2-B1AA-0E66400BA317}.Release|x86.ActiveCfg = Release|Win32
+		{6B2849D3-302A-47D2-B1AA-0E66400BA317}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03A8729D-C694-4066-9E06-4B776864AE50}
+	EndGlobalSection
+EndGlobal
